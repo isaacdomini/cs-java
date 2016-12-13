@@ -1,8 +1,8 @@
-package com.cyriacdomini;
+package com.cyriacdomini.datastructure;
 
-public class LinkedList{
+public class LinkedList<T>{
 
-  private LinkedListNode head;
+  private LinkedListNode<T> head;
   private int size;
 
   public LinkedList(){
@@ -11,13 +11,13 @@ public class LinkedList{
   }
 
   public boolean enqueue(T data){
-    getLastNode().setNext(new LinkedListNode(data));
+    getLastNode().setNext(new LinkedListNode<T>(data));
     size++;
     return true;
   }
 
   public T dequeue(){
-    LinkedListNode temp = head;
+    LinkedListNode<T> temp = head;
     head = head.getNext();
     return temp==null ? null : temp.getValue();
   }
@@ -26,9 +26,9 @@ public class LinkedList{
     return this.size;
   }
 
-  private LinkedListNode getLastNode(){
-    LinkedListNode temp = head;
-    LinkedListNode prev = temp;
+  private LinkedListNode<T> getLastNode(){
+    LinkedListNode<T> temp = head;
+    LinkedListNode<T> prev = temp;
     while(temp!=null){
       prev = temp;
       temp = temp.getNext();
@@ -36,9 +36,9 @@ public class LinkedList{
     return prev;
   }
 
-  private class LinkedListNode{
+  private class LinkedListNode<T>{
     T data;
-    LinkedListNode next;
+    LinkedListNode<T> next;
     LinkedListNode(T data){
       this.data = data;
       next = null;
@@ -53,7 +53,7 @@ public class LinkedList{
     LinkedListNode getNext(){
       return this.next;
     }
-    boolean setNext(LinkedListNode nextNode){
+    boolean setNext(LinkedListNode<T> nextNode){
       this.next = nextNode;
       return true;
     }
