@@ -5,13 +5,13 @@ import org.junit.Before;
 import junit.framework.Assert;
 
 public class QueueTest{
-  Queue queue1;
-  Queue queue2;
+  Queue<Integer> queue1;
+  Queue<Integer> queue2;
 
   @Before
   public void init(){
-    queue1 = new Queue<Integer>();
-    queue2 = new Queue<Integer>();
+    queue1 = new LinkedListQueue<Integer>();
+    queue2 = new LinkedListQueue<Integer>();
     for(int i = 0; i< 10; i++){
       queue1.enqueue(i*3);
     }
