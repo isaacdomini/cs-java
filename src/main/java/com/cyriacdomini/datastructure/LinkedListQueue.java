@@ -12,7 +12,7 @@ public class LinkedListQueue<T> implements Queue<T>{
 
   /**
    * Adds data to end of Queue
-   * @param  T data          value to enqueue to the end of the Queue
+   * @param  data          value to enqueue to the end of the Queue
    * @return   true is successfully enqueued
    */
   public boolean enqueue(T data){
