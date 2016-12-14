@@ -1,6 +1,8 @@
 package com.cyriacdomini.datastructure;
-
-public interface Queue<T>{
+/**
+ * Queue Interface for First In First Out data structures.
+ */
+public interface Queue<T> extends Iterable<T>{
   /**
    * Adds data to end of Queue
    * @param  data          value to enqueue to the end of the Queue

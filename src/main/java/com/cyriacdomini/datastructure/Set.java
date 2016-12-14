@@ -1,6 +1,6 @@
 package com.cyriacdomini.datastructure;
 
-public interface Set<T>{
+public interface Set<T> extends Iterable<T>{
   /**
    * Adds data to set
    * @param  data          data to add to this

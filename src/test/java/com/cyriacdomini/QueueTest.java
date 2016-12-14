@@ -18,6 +18,9 @@ public class QueueTest{
   }
   @Test
   public void testEnqueue1(){
+    for(Integer i : queue1){
+      System.out.print(i + " + ");
+    }
     Assert.assertTrue(queue2.enqueue(10*3));
   }
   @Test

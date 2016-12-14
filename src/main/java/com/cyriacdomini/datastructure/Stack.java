@@ -1,6 +1,8 @@
 package com.cyriacdomini.datastructure;
-
-public interface Stack<T>{
+/**
+ * Stack interface for First In Last Out data structures
+ */
+public interface Stack<T> extends Iterable<T>{
 
   /**
    * Push data at the top of the stack
@@ -20,4 +22,13 @@ public interface Stack<T>{
    * @return Size of the stack
    */
   public int size();
+
+  /**
+   * Get value of node at a given index
+   * @param  index         index of item to be looked for
+   * @return     value of item at index index
+   */
+  public T get(int index);
+
+
 }
