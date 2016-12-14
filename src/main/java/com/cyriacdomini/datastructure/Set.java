@@ -29,19 +29,19 @@ public interface Set<T> extends Iterable<T>{
    * @param  s           Set to check for intersection with this
    * @return        intersection of this and s
    */
-  public Set<T> intersection(Set<T> set);//: returns the intersection of sets S and T.
+  public Set<T> intersection(Set<T> s);//: returns the intersection of sets S and T.
   /**
    * Returns difference of this and a given set
    * @param  s           Set to check for difference with this
    * @return        difference of this and s
    */
-  public Set<T> difference(Set<T> set);// returns the difference of sets S and T.
+  public Set<T> difference(Set<T> s);// returns the difference of sets S and T.
   /**
    * Checks if a given set is a subset of this
    * @param  s           Set to check if it is a subset of this
    * @return        true if s is a subset of this and false otherwise
    */
-  public boolean subset(Set<T> set);
+  public boolean subset(Set<T> s);
 
   /**
    * Checks if a given data is an element of this
