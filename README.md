@@ -1,7 +1,13 @@
-This is a repository containing most popular data structures and algorithms implementations
-Requisites:
--Java
--Maven
+# CS Fundamentals Java package
+Java packages with implementations of basic computer science data structure and algorithm
 
+Made by [Cyriac Domini](https://cyriacdomini.com/)
 
-use mvn package to package and use java -jar cs****.jar in the target folder
+Go to the [Javadoc](https://cyriacdomini.com/cs-java/)
+
+To generate the jar:
+```sh
+$ git clone <git clone URL (SSH|HTTPS)>
+$ mvn package
+$ cd target
+```
