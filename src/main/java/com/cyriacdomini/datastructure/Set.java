@@ -55,7 +55,7 @@ public interface Set<T> extends Iterable<T>{
    */
   public boolean isEmpty();//: checks whether the set S is empty.
   /**
-   * Size of this
+   * Number of elements in this
    * @return size of this
    */
   public int size();// or cardinality(S): returns the number of elements in S.
