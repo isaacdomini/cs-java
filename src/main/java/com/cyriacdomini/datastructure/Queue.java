@@ -19,7 +19,7 @@ public interface Queue<T> extends Iterable<T> {
 
   /**
    * Returns the size of the queue.
-   * @return the length of the queue
+   * @return the length of the queue.
    */
   int size();
 }
