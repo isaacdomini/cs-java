@@ -5,52 +5,7 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-checkstyle-plugin:2.17:check (default-cli) @ cs ---
-[INFO] There are 81 errors reported by Checkstyle 6.11.2 with sun_checks.xml ruleset.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[3] (javadoc) JavadocType: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[3,44] (whitespace) GenericWhitespace: '>' is followed by an illegal character.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[3,44] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[4] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[9,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[10] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[15,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[16] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[20,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[21] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[26,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[26,34] (whitespace) WhitespaceAfter: ';' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[27] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[32] (sizes) LineLength: Line is longer than 80 characters (found 84).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[32,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[32,40] (whitespace) WhitespaceAfter: ';' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[33] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[38,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[38,38] (whitespace) WhitespaceAfter: ';' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[39] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[44,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[46] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[51] (sizes) LineLength: Line is longer than 80 characters (found 84).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[51,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[51,38] (whitespace) WhitespaceAfter: ';' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[52] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[56,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[56,28] (whitespace) WhitespaceAfter: ';' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[57] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[61,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[61,21] (whitespace) WhitespaceAfter: ';' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[62] (sizes) LineLength: Line is longer than 80 characters (found 107).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[63] (sizes) LineLength: Line is longer than 80 characters (found 87).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[65] (sizes) LineLength: Line is longer than 80 characters (found 161).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[68] (sizes) LineLength: Line is longer than 80 characters (found 106).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[69] (sizes) LineLength: Line is longer than 80 characters (found 99).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[70] (sizes) LineLength: Line is longer than 80 characters (found 194).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[71] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[75,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[76] (sizes) LineLength: Line is longer than 80 characters (found 158).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[77] (sizes) LineLength: Line is longer than 80 characters (found 107).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[80] (sizes) LineLength: Line is longer than 80 characters (found 154).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[81] (sizes) LineLength: Line is longer than 80 characters (found 143).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[82] (sizes) LineLength: Line is longer than 80 characters (found 444).
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[83] (sizes) LineLength: Line is longer than 80 characters (found 91).
+[INFO] There are 36 errors reported by Checkstyle 6.11.2 with sun_checks.xml ruleset.
 [ERROR] src/main/java/com/cyriacdomini/datastructure/Stack.java:[2] (javadoc) JavadocStyle: First sentence should end with a period.
 [ERROR] src/main/java/com/cyriacdomini/datastructure/Stack.java:[5] (javadoc) JavadocType: Type Javadoc comment is missing an @param <T> tag.
 [ERROR] src/main/java/com/cyriacdomini/datastructure/Stack.java:[5,46] (whitespace) GenericWhitespace: '>' is followed by an illegal character.
@@ -90,11 +45,11 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 3.712 s
-[INFO] Finished at: 2016-12-19T08:19:41-05:00
-[INFO] Final Memory: 15M/218M
+[INFO] Total time: 3.560 s
+[INFO] Finished at: 2016-12-19T08:26:01-05:00
+[INFO] Final Memory: 15M/215M
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (default-cli) on project cs: You have 81 Checkstyle violations. -> [Help 1]
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (default-cli) on project cs: You have 36 Checkstyle violations. -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
 [ERROR] Re-run Maven using the -X switch to enable full debug logging.
