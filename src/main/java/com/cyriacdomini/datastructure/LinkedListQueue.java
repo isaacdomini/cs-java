@@ -26,7 +26,7 @@ public class LinkedListQueue<T> implements Queue<T> {
    * @param  index         index of item to be fetched
    * @return     Item at index index
    */
-  public T get(final int index) {
+  public final T get(final int index) {
     LinkedListQueueNode<T> temp = head;
     for (int i = 0; i < index; i++) {
       //TODO create custom exception
@@ -39,7 +39,7 @@ public class LinkedListQueue<T> implements Queue<T> {
    * @param  data          value to enqueue to the end of the Queue
    * @return   true is successfully enqueued
    */
-  public boolean enqueue(final T data) {
+  public final boolean enqueue(final T data) {
     if (head == null) {
       head = new LinkedListQueueNode<T>(data);
     } else {
@@ -53,7 +53,7 @@ public class LinkedListQueue<T> implements Queue<T> {
    * @param  index           index position of element to be removed
    * @return       value of node removed
    */
-  public T removeNode(final int index) {
+  public final T removeNode(final int index) {
     LinkedListQueueNode<T> prev = null;
     LinkedListQueueNode<T> current = head;
     int i = 0;
@@ -80,7 +80,7 @@ public class LinkedListQueue<T> implements Queue<T> {
    * Removes item from the head of the queue and returns it.
    * @return value of data at the head of the queue
    */
-  public T dequeue() {
+  public final T dequeue() {
     LinkedListQueueNode<T> temp = head;
     head = head.getNext();
     if (temp == null) {
@@ -94,7 +94,7 @@ public class LinkedListQueue<T> implements Queue<T> {
    * Returns the size of the queue.
    * @return the length of the queue
    */
-  public int size() {
+  public final int size() {
     return this.size;
   }
  /**
@@ -114,7 +114,7 @@ public class LinkedListQueue<T> implements Queue<T> {
    * returns iterator for this.
    * @return returns a new Iterator for this.
    */
-  public Iterator<T> iterator() {
+  public final Iterator<T> iterator() {
       return new LinkedListQueueIterator<T>();
   }
   /**
