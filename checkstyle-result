@@ -5,16 +5,7 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-checkstyle-plugin:2.17:check (default-cli) @ cs ---
-[INFO] There are 90 errors reported by Checkstyle 6.11.2 with sun_checks.xml ruleset.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[5] (javadoc) JavadocType: Type Javadoc comment is missing an @param <T> tag.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[5,46] (whitespace) GenericWhitespace: '>' is followed by an illegal character.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[5,46] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[6] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[11,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[13] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[17,3] (modifier) RedundantModifier: Redundant 'public' modifier.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[19] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[23,3] (modifier) RedundantModifier: Redundant 'public' modifier.
+[INFO] There are 81 errors reported by Checkstyle 6.11.2 with sun_checks.xml ruleset.
 [ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[3] (javadoc) JavadocType: Missing a Javadoc comment.
 [ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[3,44] (whitespace) GenericWhitespace: '>' is followed by an illegal character.
 [ERROR] src/main/java/com/cyriacdomini/datastructure/Set.java:[3,44] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
@@ -99,11 +90,11 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 7.691 s
-[INFO] Finished at: 2016-12-19T00:22:49-05:00
-[INFO] Final Memory: 16M/258M
+[INFO] Total time: 3.712 s
+[INFO] Finished at: 2016-12-19T08:19:41-05:00
+[INFO] Final Memory: 15M/218M
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (default-cli) on project cs: You have 90 Checkstyle violations. -> [Help 1]
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (default-cli) on project cs: You have 81 Checkstyle violations. -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
 [ERROR] Re-run Maven using the -X switch to enable full debug logging.
