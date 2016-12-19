@@ -5,84 +5,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-checkstyle-plugin:2.17:check (default-cli) @ cs ---
-[INFO] There are 167 errors reported by Checkstyle 6.11.2 with sun_checks.xml ruleset.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[0] (javadoc) JavadocPackage: Missing package-info.java file.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[3] (javadoc) JavadocType: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[3,52] (whitespace) GenericWhitespace: '>' is followed by an illegal character.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[3,52] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[5,3] (javadoc) JavadocVariable: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[6,3] (javadoc) JavadocVariable: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[8,3] (javadoc) JavadocMethod: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[8,27] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[12] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[17,3] (design) DesignForExtension: Method 'get' is not designed for extension - needs to be abstract, final or empty.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[17,16] (misc) FinalParameters: Parameter index should be final.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[17,26] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[19,8] (whitespace) WhitespaceAround: 'for' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[19,14] (whitespace) WhitespaceAround: '=' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[19,15] (whitespace) WhitespaceAround: '=' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[19,17] (whitespace) WhitespaceAfter: ';' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[19,18] (whitespace) WhitespaceAround: '<' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[19,19] (whitespace) WhitespaceAround: '<' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[19,25] (whitespace) WhitespaceAfter: ';' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[19,29] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[20] (misc) TodoComment: Comment matches to-do format 'TODO:'.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[21,13] (whitespace) WhitespaceAround: '=' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[25] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[30,3] (design) DesignForExtension: Method 'enqueue' is not designed for extension - needs to be abstract, final or empty.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[30,26] (misc) FinalParameters: Parameter data should be final.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[30,33] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[31,7] (whitespace) WhitespaceAround: 'if' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[31,21] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[33,6] (whitespace) WhitespaceAround: 'else' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[33,6] (whitespace) WhitespaceAround: '}' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[33,10] (whitespace) WhitespaceAround: 'else' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[33,10] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[40] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[44,3] (design) DesignForExtension: Method 'dequeue' is not designed for extension - needs to be abstract, final or empty.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[44,21] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[47,16] (whitespace) WhitespaceAround: '==' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[47,18] (whitespace) WhitespaceAround: '==' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[47,23] (coding) AvoidInlineConditionals: Avoid inline conditionals.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[50] (javadoc) JavadocStyle: First sentence should end with a period.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[54,3] (design) DesignForExtension: Method 'size' is not designed for extension - needs to be abstract, final or empty.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[54,20] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[58,3] (javadoc) JavadocMethod: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[58,47] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[61,10] (whitespace) WhitespaceAround: 'while' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[61,15] (whitespace) WhitespaceAround: '!=' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[61,17] (whitespace) WhitespaceAround: '!=' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[61,22] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[67,3] (design) DesignForExtension: Method 'iterator' is not designed for extension - needs to be abstract, final or empty.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[67,3] (javadoc) JavadocMethod: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[71] (javadoc) JavadocType: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[73,7] (javadoc) JavadocVariable: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[75,7] (javadoc) JavadocMethod: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[79,7] (javadoc) JavadocMethod: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[80,21] (whitespace) WhitespaceAfter: 'typecast' is not followed by whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[83,7] (javadoc) JavadocMethod: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[88] (javadoc) JavadocType: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[88,39] (whitespace) GenericWhitespace: '>' is followed by an illegal character.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[88,39] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[89,5] (javadoc) JavadocVariable: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[89,7] (design) VisibilityModifier: Variable 'data' must be private and have accessor methods.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[90,5] (javadoc) JavadocVariable: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[90,28] (design) VisibilityModifier: Variable 'next' must be private and have accessor methods.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[91,5] (javadoc) JavadocMethod: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[91,25] (misc) FinalParameters: Parameter data should be final.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[91,27] (coding) HiddenField: 'data' hides a field.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[91,32] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[95,5] (javadoc) JavadocMethod: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[95,17] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[98,5] (javadoc) JavadocMethod: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[98,22] (misc) FinalParameters: Parameter data should be final.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[98,24] (coding) HiddenField: 'data' hides a field.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[98,29] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[102,5] (javadoc) JavadocMethod: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[102,37] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[105,5] (javadoc) JavadocMethod: Missing a Javadoc comment.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[105,21] (misc) FinalParameters: Parameter nextNode should be final.
-[ERROR] src/main/java/com/cyriacdomini/datastructure/LinkedListQueue.java:[105,53] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
+[INFO] There are 92 errors reported by Checkstyle 6.11.2 with sun_checks.xml ruleset.
+[ERROR] src/main/java/com/cyriacdomini/datastructure/package-info.java:[1] (javadoc) JavadocStyle: First sentence should end with a period.
+[ERROR] src/main/java/com/cyriacdomini/datastructure/package-info.java:[2] (regexp) RegexpSingleline: Line has trailing spaces.
 [ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[5] (javadoc) JavadocType: Type Javadoc comment is missing an @param <T> tag.
 [ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[5,46] (whitespace) GenericWhitespace: '>' is followed by an illegal character.
 [ERROR] src/main/java/com/cyriacdomini/datastructure/Queue.java:[5,46] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
@@ -176,11 +101,11 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 3.784 s
-[INFO] Finished at: 2016-12-18T18:45:31-05:00
-[INFO] Final Memory: 15M/211M
+[INFO] Total time: 8.523 s
+[INFO] Finished at: 2016-12-18T21:37:51-05:00
+[INFO] Final Memory: 15M/219M
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (default-cli) on project cs: You have 167 Checkstyle violations. -> [Help 1]
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (default-cli) on project cs: You have 92 Checkstyle violations. -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
 [ERROR] Re-run Maven using the -X switch to enable full debug logging.
